@@ -9,9 +9,11 @@ file_out = "A-test.out"
 
 with open(file_in, "r") as fin, open(file_out, "w") as fout:
     L, D, T = (int(x) for x in fin.readline().strip().split())
+    
     words = []
     for i in range(D):
         words.append(fin.readline().strip())
+        
     for case in range(T):
         w = fin.readline().strip()
         r = []
@@ -27,6 +29,5 @@ with open(file_in, "r") as fin, open(file_out, "w") as fout:
             else:
                 r.append([w[i]])
             i += 1
-            
 
 print("done")
