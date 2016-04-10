@@ -1,8 +1,14 @@
- # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 """
 Não consegui fazer este exercício, mas deixei algumas das minhas
 tentativas como comentario
+
+
+UPDATE:
+Consegui resolver o problema, mas tive que reestruturar o código
+do zero, vou deixar essa aberração como uma lembrança (PS: ela,
+obviamente, não funciona)
 """
 #
 # def le_chaves(dicionario, chave):
